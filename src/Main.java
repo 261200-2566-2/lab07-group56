@@ -22,7 +22,7 @@ public class Main {
             }
             //check Red are contain in set
             System.out.println("Are red contains in Set : "+set.contains("Red"));
-            System.out.println("---------------------------------------");
+            System.out.println("--------------------------------------");
 
             //create collection color
             Set<String> allColors = new HSet<>();
@@ -47,7 +47,7 @@ public class Main {
             for (String s : set) {
                 System.out.println(" - " + s);
             }
-            System.out.println("---------------------------------------");
+            System.out.println("--------------------------------------");
         }
 
 }
